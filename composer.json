@@ -1,0 +1,27 @@
+{
+    "name": "marcocantu/models-to-tables",
+    "description": "library to migrate models to a dabase tables",
+    "type": "library",
+    "version": "0.0.1",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Marco Cantu Gea",
+            "email": "marco.cantu.g@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ModelToTables\\": "src/"
+        }   
+    },
+    "require": {},
+    "scripts": {
+        "test":[
+            "phpunit"
+        ]
+    }
+}
